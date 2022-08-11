@@ -39,7 +39,7 @@ There are two ways to run this app:
 - Here is an example for the input:
 	- function zipobject(props, values) { return basezipobject(props || [], values || [], assignvalue) }
 
-I have also taken into account that the user might put non-relevant information in the input, or if the format is not perfectly aligned with a Java function format.
+I have also taken into account that the user might put non-relevant information in the input, or the format is not perfectly aligned with a Java function format.
 
 
 
