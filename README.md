@@ -11,10 +11,10 @@ Inside the **app** folder, we can find these files:
 
 - **app_flask.py** , the app that I have created to load the NN model and run the inference. This app is based on the flask package and will be locally loaded on `http://localhost:8080`.
 - **app_gradio.py** , the app that I have created to load the NN model and run the inference. This app is based on the gradio package, which is more flexible in terms of design and ML stability and doesn't need a separate HTML to show the results. This will be locally loaded on `http://localhost:8080`.
-**Dockerfile** , which keeps the information for running a docker using the app.
-**requirements.txt** , which keeps the python packages that should be installed before running this app.
-**model** folder, which keeps the model and other encoders that are saved during the exploration phase.
-**templates** folder, which keeps the website HTML that should be used in the **app_flask.py**.
+-**Dockerfile** , which keeps the information for running a docker using the app.
+-**requirements.txt** , which keeps the python packages that should be installed before running this app.
+-**model** folder, which keeps the model and other encoders that are saved during the exploration phase.
+-**templates** folder, which keeps the website HTML that should be used in the **app_flask.py**.
 
 
 
