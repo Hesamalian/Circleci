@@ -32,6 +32,7 @@ There are two ways to run this app:
 	- Then, the user should activate the environment like this, `source app_c/bin/activate`.
 	- Inside the app folder, he will first run `pip install -r requirements.txt`.
 	- Then he can either run `python app_flask.py` or `python app_gradio.py`.
+	- I prefer `python app_gradio.py` since the latency is very smaller.
 	- Then check the address that will be created to use the app.
 
 - I have also created a public link that I can give you the address by email. Users won't need to do anything here and can check directly the public address.
